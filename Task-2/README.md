@@ -197,9 +197,3 @@ Outputs:
 - `submission_unseen_brands.csv` / `submission_unseen_time.csv` — competition-format submissions.
 
 ---
-
-## 7. Current Status
-
-At time of writing, the QLoRA fine-tune is **mid-training**: step ~126 of 3087, training loss 3.24 at the first 50-step logging point, sustained throughput ~10 s/it, projected completion ~8 hours from start. Eval metrics will be logged at step 500 (first checkpoint) and every 500 steps after.
-
-See `progress.md` for the full session-by-session change log and bug ledger.
